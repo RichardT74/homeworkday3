@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import ListItem from './ListItem.vue';
+import ListComponent from './ListComponent.vue';
 
 export default {
   name: 'countries-list',
   props: ['countries'],
   components: {
-    "list-item": ListItem
+    "list-item": ListComponent
   }
 }
 </script>
